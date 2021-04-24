@@ -1,0 +1,43 @@
+.section5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.section5 .wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+.section5 .wrapper h1 {
+    font-size: 46px;
+    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+}
+.section5 .wrapper button {
+    height: 65px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease;
+    margin-top: 5px;
+}
+.section5 .wrapper button:hover {
+    transition: 300ms ease;
+    cursor: pointer;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+}
+.section5 .wrapper svg {
+    margin-right: 10px;
+}
+.section5 .wrapper button p {
+    font-size: 26px;
+}
+@media only screen and (max-width: 500px) {
+    .section5 .wrapper h1 {
+        font-size: 10vw;
+    }
+}

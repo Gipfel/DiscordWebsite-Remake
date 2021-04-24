@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    user-drag: none;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+  }
+
+*::selection {
+    background-color: #5069C3;
+}
+
+body {
+    overflow-x: hidden;
+    height: 100vh;
+    background-color: rgb(19, 17, 17);
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5069C3;
+    border-radius: 20px;
+    border: transparent;
+}
+
+.home {
+    height: 124.4vh;
+    background-image: url('../imgs/StartPageBG.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.home .discord-logo {
+    width: 1200px;
+}
+
+.section1 {
+    height: 77.6vh;
+    background-color: #5069C3;
+}
+
+.section2 {
+    height: 100vh;
+    background-image: url('../imgs/section2bg.png');
+    background-size: 100% 100%;
+}
+
+.section3 {
+    height: 100vh;
+    background-image: url('../imgs/section3bg.png');
+    background-size: 100% 100%;
+}
+
+.section4 {
+    height: 100vh;
+    background-image: url('../imgs/section4bg.png');
+    background-size: 100% 100%;
+}
+
+.section5 {
+    height: 48vh;
+    background-image: url('../imgs/section5bg.png');
+    background-size: 100% 100%;
+}

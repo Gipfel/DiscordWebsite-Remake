@@ -1,0 +1,80 @@
+.position-the-nav-for-lazy-poeple {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    width: 100vw;
+}
+.position-the-nav-for-lazy-poeple img {
+    height: 2.7vw;
+}
+.flex-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.position-flex {
+    display: flex;
+    margin-bottom: 40vh;
+}
+.logo1 {
+    margin-right: 20px;
+    height: 224px;
+}
+.logo2 {
+    height: 120px;
+    margin-bottom: 20px;
+}
+.button-logo {
+    display: flex;
+    flex-direction: column;
+}
+.button-logo  button {
+    height: 53px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    transition: 300ms ease;
+}
+.button-logo  button:hover {
+    transition: 300ms ease;
+    cursor: pointer;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+}
+.button-logo svg {
+    margin-right: 10px;
+    transform: scale(1.5);
+}
+.button-logo  button p {
+    font-size: 33px;
+}
+@media only screen and (max-width: 850px) {
+    .logo2 {
+        height: 13.386376vw;
+        margin-bottom: 0;
+    }
+    .logo1 {
+        height: 25vw;
+    }
+}
+@media only screen and (max-width: 680px) {
+    .button-logo button p {
+        font-size: 23px;
+    }
+    .button-logo svg {
+        transform: scale(1);
+    }
+}
+@media only screen and (max-width: 500px) {
+    .logo1 {
+        display: none;
+    }
+    .logo2 {
+        height: 19vw;
+    }
+}
