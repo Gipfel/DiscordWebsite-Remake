@@ -44,7 +44,7 @@
 .button-logo  button:hover {
     transition: 300ms ease;
     cursor: pointer;
-    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.801);
 }
 .button-logo svg {
     margin-right: 10px;

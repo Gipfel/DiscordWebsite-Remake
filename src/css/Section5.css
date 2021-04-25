@@ -11,7 +11,7 @@
 }
 .section5 .wrapper h1 {
     font-size: 46px;
-    text-shadow: 6px 6px 4px rgba(0, 0, 0, 0.3);
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.801);
 }
 .section5 .wrapper button {
     height: 65px;
